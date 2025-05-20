@@ -18,7 +18,7 @@ This is a backend API built with Spring Boot for handling **user signup/login** 
 - Spring Security (basic usage)
 - MySQL database
 
-## Authentication APIs##
+## Authentication APIs ##
 POST /api/auth/signup – Registers a new user so they can access the platform.
 
 POST /api/auth/login – Authenticates an existing user to allow secure access.
@@ -29,5 +29,9 @@ POST /api/auth/login – Authenticates an existing user to allow secure access.
 GET /api/metrics/{userId} – Fetches all saved metrics for a specific user (to show their fitness history).
 
 DELETE /api/metrics/delete-null-device – Deletes all metrics with missing device ID (to clean up invalid data).
+
+## Swagger ScreenShot ##
+
+<img width="1093" alt="image" src="https://github.com/user-attachments/assets/5f1a188b-3f8d-433d-97b6-6b5e2f60be40" />
 
 
